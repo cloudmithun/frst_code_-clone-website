@@ -1,0 +1,28 @@
+$red-co: red;
+$marg-le: 100px;
+$marg-right: 100px;
+$boder: 1px solid white;
+$alin: center;
+
+@mixin rosan{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 80px;
+        & img{
+            border: $boder;
+            height: 210px;
+        }
+    } 
+    @mixin ruhi2{
+         margin-top: 7px;
+            & img{
+            padding-top: 0;
+            margin-top: -4px;
+    }
+    }
+
+
+                        

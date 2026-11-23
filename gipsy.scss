@@ -1,0 +1,440 @@
+@import "mithun.scss";
+@import "MediaQuery";
+
+body{
+    padding: unset !important;
+    margin: unset !important;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    margin-top: -14px;
+}
+
+
+
+    // <slider css>
+.carousel-item{
+  height: 500px;
+}
+
+.carousel-item img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.topbar{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    & p{
+        text-align: center;
+        font-size: 13px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-weight: 700;
+    }
+}
+.row{
+    margin-right: unset !important;
+    margin-left: unset !important;
+}
+.mithun{
+    height: 45px;
+    width: 100%;
+    margin-top: -3px;
+}
+.ruhi{
+   @include ruhi2;
+}
+ .der{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .ruhi-1{
+         text-align: $alin;
+        & img{
+            margin-top: -12px;
+        }
+    }
+    .ruhi-2{
+        text-align: end;  
+         }  
+    .sun{
+        padding-right: 0;
+        margin-top: 9px;
+    }
+    .ko{
+        padding-left: 19px;
+        font-size: 21px;
+    }
+    .line{
+        color: inherit;
+        opacity: 1;
+    }
+    .lala{
+        text-align: $alin;
+    }
+    .apolo{
+        margin-top: 5px;
+        & ul li{
+            display: inline;
+        }
+    }
+    .list{
+        list-style-type: none;
+        display: flex;
+        gap: 151px;
+    }
+  
+    .heading{
+        & h2{
+            text-align: $alin;
+            font-weight: 400;
+            font-family: emoji;
+        }
+    }
+   
+    .fashion{
+        height: 600px;
+        width: 100%;
+        background-image: url(img/mk1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: $alin;
+        justify-content: $alin;
+        & h2{
+            text-align: end;
+            display: flex;
+            align-items: end;
+            font-family: emoji;
+            color: white;
+            font-weight: 600;
+            font-size: 33px;
+            padding-top: 450px;
+            padding-left: 97px;
+        }
+    }
+    .kuku{
+       @include rosan;
+    }
+    .kuku1{
+         height: 100%;
+        width: 100%;
+          background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        padding-top: 80px;
+        & img{
+            border: 1px solid white;   
+        }   
+    }
+    .word{
+        & h2{
+            padding-top: 0;
+        }
+    }
+   
+        .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+
+     .fashion-1{
+        height: 600px;
+        width: 100%;
+        background-image: url(img/horn2.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-right: unset!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & h2{
+            text-align: end;
+            display: flex;
+            align-items: end;
+            padding-left: 0px;
+            font-family: emoji;
+            color: white;
+            font-weight: 600;
+            font-size: 36px;
+             padding-top: 450px;
+            padding-left: 57px;
+        }
+    }
+       .popa{
+         height: 100%;
+        width: 100%;
+          background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 80px;
+        & img{
+            border: $boder;
+        }
+    }
+      .popa-char{
+         height: 100%;
+        width: 100%;
+          background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 80px;
+        & img{
+           border: $boder;
+        }
+    }
+    .division-2{
+        padding-top: 23px;
+        padding-bottom: 50px;
+    }
+    .fashion-5{
+        height: 600px;
+        width: 100%;
+        background-image: url(img/kkk2.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & h2{
+            text-align: end;
+            display: flex;
+            align-items: end;
+            padding-left: 68px;
+            font-family: emoji;
+            color: white;
+            font-weight: 600;
+            font-size: 36px;
+            padding-top: 450px;
+            font-family: serif;
+        }
+    }
+     .kuku-9{
+         height: 100%;
+        width: 100%;
+          background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 70px;
+        & img{
+            border: $boder;
+        }
+        
+        }
+     .kuku5{
+        height: 100%;
+        width: 100%;
+          background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 70px;
+        & img{
+            border: $boder;
+        }
+        }
+    .fashion-6{
+        height: 600px;
+        width: 100%;
+        background-image: url(img/kkk15.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+         & h2{
+            text-align: end;
+            display: flex;
+            align-items: end;
+            font-family: emoji;
+            color: white;
+            font-weight: 600;
+            padding-top: 450px;
+        }
+    }
+     .popa2{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 70px;
+        & img{
+            border: $boder;
+        }
+        
+    }
+      .char{
+         height: 100%;
+        width: 100%;
+          background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 70px;
+        & img{
+            border: $boder;
+        }
+        & .zzz{
+         display: none;
+        } 
+         }   
+    .hii{
+        margin-bottom: 4px;
+    }
+    .hii2{
+        margin-top: 2px;
+        padding-bottom: 40px;
+    }
+    .raj{
+        & h1{
+            font-weight: 400;
+            padding-left: 24px;
+        }
+    }
+    .raj1{
+        display: flex;
+        padding-left: 55px;
+        & h3{
+            font-weight: 500;
+            padding-top: 12px;
+            text-decoration: underline;
+        }
+    }
+    .new{
+        font-weight: 100;
+        font-size: 30px;
+    padding: 7px;
+    }
+    .tagline{
+        & h1{
+            text-align: center;
+            font-size: 45px;
+            font-family: system-ui;
+        }
+        & p{
+            text-align: center;
+            font-size: 12px;
+            font-weight: 500;
+            padding-top: 3px;
+            text-decoration: underline;
+        }
+    }
+    .insta{
+        height: auto;
+        width: 100%;
+    }
+    .ccc {
+        cursor: pointer;
+        & img{
+            height: 255px;
+        }
+  
+  .ddd {
+    display: none;
+     align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -130px;
+    & svg{
+        // filter: drop-shadow(2px 4px 0px cyan);
+        filter: opacity(100%);
+    }
+  }
+
+  &:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+    filter: brightness(45%);
+    
+    .ddd {
+      display: block;
+    }
+  }
+}
+.lap{
+    margin-top: 8px;
+}
+.press{
+    padding-top: 16px;
+    margin-left: -12px;
+}
+.press1{
+    padding-top: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.madt{
+    text-align: center;
+    padding-top: 25px;
+}
+.latest{
+    font-weight: 200;
+    text-align: center;
+    & h1{
+        font-weight: 400;
+    font-size: 60px;
+    font-family: emoji;
+    }
+}
+.input-group{
+    text-align: center;
+    margin-top: -22px;
+}
+.face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img{
+        padding-left: 15px;
+    }
+}
+.need{
+    & ul{
+            list-style-type: none;
+    padding-top: 8px;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 17px;
+    }
+    & h2{
+        text-decoration: underline;
+    }
+}
+@media (min-width: 768px) {
+  .need {
+    & p{
+        padding-left: 30px;
+        font-weight: 500;
+    }
+  }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+  .need {
+    & p{
+        padding-left: 15px; /* maximum */
+    }
+  }
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & p{
+        font-weight: 500;
+    }
+}
